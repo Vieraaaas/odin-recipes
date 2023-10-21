@@ -5,10 +5,12 @@ h1 {
 }
 
 img {
-    width: 75%;
+    width: 50%;
+    max-width: 500px;
     height: auto;
     margin: auto;
     display: block;
+    border-radius: 250px;
 }
 
 body {
@@ -18,4 +20,8 @@ body {
 
 .ingredients {
     font-style: italic;
+}
+
+.return {
+    text-align: center; 
 }
