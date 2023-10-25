@@ -22,6 +22,25 @@ body {
     font-style: italic;
 }
 
-.return {
-    text-align: center; 
+div.return {
+    margin: 0 auto;
+    display:flex;
+/* Centers the "return" link */
+}
+
+.return a{
+    text-align: center;
+    background-color:rgb(184, 109, 10);
+    padding: 1em;
+    width: 4em;
+    margin: auto;
+    
+}
+
+.return a:hover {
+    background-color: rgb(158, 92, 5);
+}
+
+.recipe-link {
+    margin-bottom: 10px;
 }
