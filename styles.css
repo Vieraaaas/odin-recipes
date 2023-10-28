@@ -24,11 +24,11 @@ body {
 
 div.return {
     margin: 0 auto;
-    display:flex;
+    display: flex;
 /* Centers the "return" link */
 }
 
-.return a{
+.return a {
     text-align: center;
     background-color:rgb(184, 109, 10);
     padding: 1em;
@@ -42,5 +42,23 @@ div.return {
 }
 
 .recipe-link {
+    display: block;
+/* Get's rid of the bullet points from <ul> */
+}
+
+.recipe-link a { 
+    display: block;
+    text-align: center;
     margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    max-width: 400px;
+    background-color: rgb(184, 109, 10);
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.recipe-link a:hover {
+    background-color: rgb(158, 92, 5);
 }
