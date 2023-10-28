@@ -41,11 +41,6 @@ div.return {
     background-color: rgb(158, 92, 5);
 }
 
-.recipe-link {
-    display: block;
-/* Get's rid of the bullet points from <ul> */
-}
-
 .recipe-link a { 
     display: block;
     text-align: center;
